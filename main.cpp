@@ -12,13 +12,8 @@ int main(int argc, char * argv[]) {
   for(int i=1; i < argc; i++){
     a[i-1] = atoi(argv[i]);
   }
-
-  printf("Before sorting : ");
-  display(a,N);
-
   sort(a,N);
 
-  printf("After sorting : ");
   display(a,N);
   
   delete[] a;

@@ -17,12 +17,8 @@ void sort(int *a,int N) {
 }
 
 void display(int *a,int N) {
-  printf("[");
   for (int i = 0; i < N; i++) {
-    printf("%d", a[i]);
-    if (i != (N-1)) {
-      printf(", ");
-    }
+    printf("%d ", a[i]);
   }
-  printf("]\n");
+  printf("\n");
 }
